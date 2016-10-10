@@ -9,8 +9,8 @@ import android.widget.*;
 import android.view.*;
 
 /*
-    13331233    孙中阳
-    2016.10.07  szy@sunzhongyang.com
+13331233    孙中阳
+2016.10.07  szy@sunzhongyang.com
  */
 public class Second_Project extends Activity
 {
@@ -143,5 +143,4 @@ public class Second_Project extends Activity
             }
         });
     }
-
 }
