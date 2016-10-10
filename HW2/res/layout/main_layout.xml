@@ -37,8 +37,7 @@
             android:textSize="18sp"
             android:gravity="center_vertical"
             android:layout_column="0"
-            android:layout_row="0"
-            />
+            android:layout_row="0" />
 
         <EditText
             android:layout_width="match_parent"
@@ -48,7 +47,8 @@
             android:inputType="text"
             android:maxLines="1"
             android:layout_column="1"
-            android:layout_row="0"/>
+            android:layout_row="0"
+            android:id="@+id/userEditView"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -68,7 +68,8 @@
             android:inputType="textPassword"
             android:maxLines="1"
             android:layout_column="1"
-            android:layout_row="1"/>
+            android:layout_row="1"
+            android:id="@+id/passwordEditView"/>
 
     </GridLayout>
 
@@ -119,7 +120,7 @@
             android:textAlignment="center" />
 
     </RadioGroup>
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -134,7 +135,8 @@
             android:layout_marginEnd="5dp"
             android:textSize="18sp"
             android:background="@drawable/button_bg"
-            android:textColor="@color/white" />
+            android:textColor="@color/white"
+            android:id="@+id/loginButton"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -142,7 +144,8 @@
             android:text="@string/register"
             android:textSize="18sp"
             android:background="@drawable/button_bg"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:id="@+id/registerButton"/>
 
     </LinearLayout>
 

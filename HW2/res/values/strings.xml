@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Second_project</string>
+    <string name="title">中山大学课外体育积分电子认证系统</string>
+    <string name="username">用户名:</string>
+    <string name="password">密码:</string>
+    <string name="enter_username">请输入用户名</string>
+    <string name="enter_password">请输入密码</string>
+    <string name="login">登陆</string>
+    <string name="register">注册</string>
+</resources>
