@@ -44,18 +44,18 @@ public class PageActivity extends Activity
         Map<String, String[]> contacts = new LinkedHashMap<>();
 
         //联系人基本信息
-        String[] Aaron	= new String[] {"17715523654", "手机", "江苏苏州电信", "BB4C3B"};
-        String[] Elvis	= new String[] {"18825653224", "手机", "广东揭阳移动", "c48d30"};
-        String[] David	= new String[] {"15052116654", "手机", "江苏无锡移动", "4469b0"};
-        String[] Edwin	= new String[] {"18854211875", "手机", "山东青岛移动", "20A17B"};
-        String[] Frank	= new String[] {"13955188541", "手机", "安徽合肥移动", "BB4C3B"};
-        String[] Joshua	= new String[] {"13621574410", "手机", "江苏苏州移动", "c48d30"};
-        String[] Ivan	= new String[] {"15684122771", "手机", "山东烟台联通", "4469b0"};
-        String[] Mark	= new String[] {"17765213579", "手机", "广东珠海电信", "20A17B"};
-        String[] Joseph	= new String[] {"13315466578", "手机", "河北石家庄电信", "BB4C3B"};
-        String[] Phoebe	= new String[] {"17895466428", "手机", "山东东营移动", "c48d30"};
+        String[] Aaron = new String[] {"17715523654", "手机", "江苏苏州电信", "BB4C3B"};
+        String[] Elvis = new String[] {"18825653224", "手机", "广东揭阳移动", "c48d30"};
+        String[] David = new String[] {"15052116654", "手机", "江苏无锡移动", "4469b0"};
+        String[] Edwin = new String[] {"18854211875", "手机", "山东青岛移动", "20A17B"};
+        String[] Frank = new String[] {"13955188541", "手机", "安徽合肥移动", "BB4C3B"};
+        String[] Joshua = new String[] {"13621574410", "手机", "江苏苏州移动", "c48d30"};
+        String[] Ivan = new String[] {"15684122771", "手机", "山东烟台联通", "4469b0"};
+        String[] Mark = new String[] {"17765213579", "手机", "广东珠海电信", "20A17B"};
+        String[] Joseph = new String[] {"13315466578", "手机", "河北石家庄电信", "BB4C3B"};
+        String[] Phoebe = new String[] {"17895466428", "手机", "山东东营移动", "c48d30"};
 
-        //构造Map
+        //构造Map，key为联系人姓名，value为基本信息数组
         contacts.put("Aaron", Aaron);
         contacts.put("Elvis", Elvis);
         contacts.put("David", David);
@@ -103,6 +103,7 @@ public class PageActivity extends Activity
         List<Map<String, String>> data = new ArrayList<>();
         final String[] options = new String[] {"编辑联系人", "分享联系人", "加入黑名单", "删除联系人"};
 
+        //逐项加入
         for(int i = 0; i < options.length; i++)
         {
             Map<String, String> tmp = new LinkedHashMap<>();
@@ -110,6 +111,7 @@ public class PageActivity extends Activity
             data.add(tmp);
         }
 
+        //构造Adapter
         SimpleAdapter sAdapter = new SimpleAdapter(this, data, R.layout.options_layout, new String[] {"option"}, new int[] {R.id.op});
         checkList.setAdapter(sAdapter);
 

@@ -75,6 +75,7 @@ public class MainActivity extends Activity
             @Override
             public boolean onItemLongClick(AdapterView<?> adapter, View view, int i, long l)
             {
+                //用count替换 i 以避免与其他使用 i 的函数混淆
                 final int count = i;
 
                 //弹出一个提示框
