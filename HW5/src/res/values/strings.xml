@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab_Project_Four</string>
+    <string name="dynamic_register">动态注册</string>
+    <string name="static_register">静态注册</string>
+    <string name="dynamic_register_button">Register Broadcast</string>
+    <string name="dynamic_unregister_button">Unregister Broadcast</string>
+    <string name="dynamic_send_button">Send</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="widget_default">Apple</string>
+</resources>

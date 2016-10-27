@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="6"
+        android:padding="2dp"
+        android:id="@+id/widget_img_view"
+        android:src="@mipmap/apple"/>
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="12"
+
+        android:textSize="20dp"
+        android:text="@string/widget_default"
+        android:textColor="#FF0000"
+        android:id="@+id/widget_message"/>
+
+</LinearLayout>
