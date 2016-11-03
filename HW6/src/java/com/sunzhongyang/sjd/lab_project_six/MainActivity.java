@@ -31,7 +31,6 @@ public class MainActivity extends Activity
     TextView playTime;
     TextView musicTime;
 
-        //这里可以说一说
     //设置一个布尔变量用于表示是否正在拖动滑动条,这样可保证拖动滑动条时滑动条不会因为Handler线程不断闪烁
     boolean onProgressBarChanged = false;
 
@@ -115,7 +114,6 @@ public class MainActivity extends Activity
 
                 musicService.play();
 
-                    //这里可以说一说
                 //如果当前没有播放音乐,则更改按钮内容为PAUSE,播放状态为Playing
                 if(startButton.getText().equals(getResources().getString(R.string.button_left_play)))
                 {
@@ -169,7 +167,6 @@ public class MainActivity extends Activity
             }
         });
 
-            //这里可以说一说
         //为进度条设置监听事件
         progressBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener()
         {
@@ -220,7 +217,6 @@ public class MainActivity extends Activity
             //为进度条设置最大值
             progressBar.setMax(musicService.mp.getDuration());
 
-                //这里可以说一说
             //开始UI更新线程
             handler.post(update_thread);
         }
