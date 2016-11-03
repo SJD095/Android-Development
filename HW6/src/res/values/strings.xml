@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab_Project_Six</string>
+    <string name="media_position">Loaded media file: </string>
+    <string name="button_left_play">PLAY</string>
+    <string name="button_left_pause">PAUSE</string>
+    <string name="button_middle">STOP</string>
+    <string name="button_right">QUIT</string>
+    <string name="status_init">IDLE</string>
+    <string name="status_play">Playing</string>
+    <string name="status_pause">Paused</string>
+    <string name="status_stop">Stopped</string>
+</resources>
