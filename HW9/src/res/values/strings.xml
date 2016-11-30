@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab_Project_Nine</string>
+    <string name="title">Welcome to the Weather Search!</string>
+    <string name="city_name">City Name: </string>
+    <string name="search_button">Search</string>
+    <string name="row_one">紫外线指数</string>
+    <string name="row_two">感冒指数</string>
+    <string name="row_three">穿衣指数</string>
+    <string name="row_four">洗车指数</string>
+    <string name="row_five">运动指数</string>
+</resources>
